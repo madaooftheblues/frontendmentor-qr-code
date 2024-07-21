@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("./Outfit-VariableFont_wght.ttf");
+}
+
+:root{
+    --white: hsl(0, 0%, 100%),
+--slate-300: hsl(212, 45%, 89%),
+--slate-500: hsl(216, 15%, 48%),
+--slate-900: hsl(218, 44%, 22%),
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  background-color: gray;
+  font-family: "Outfit";
+}
+
+.card {
+  display: grid;
+  max-width: 300px;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-weight: 700;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 0.95rem;
+}
