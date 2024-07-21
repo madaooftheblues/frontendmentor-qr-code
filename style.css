@@ -3,13 +3,6 @@
   src: url("./Outfit-VariableFont_wght.ttf");
 }
 
-:root{
-    --white: hsl(0, 0%, 100%),
---slate-300: hsl(212, 45%, 89%),
---slate-500: hsl(216, 15%, 48%),
---slate-900: hsl(218, 44%, 22%),
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +14,7 @@ body {
   text-align: center;
   display: grid;
   place-items: center;
-  background-color: gray;
+  background-color: rgb(173, 173, 173);
   font-family: "Outfit";
 }
 
